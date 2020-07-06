@@ -8,4 +8,10 @@ function userAgent(){
     },2000);
 }
 
+function getUserIPLocation(){
+   $.getJSON("http://food-ecommerce.codingtech/assets/json/myIp.json",function(data){
+       jQuery('#foodStoreName').html(jQuery('#foodStoreName').html()+" ("+data.geobytescapital+")");
+   });
+}
+getUserIPLocation();
 //userAgent();
