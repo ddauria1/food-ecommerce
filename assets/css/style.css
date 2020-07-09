@@ -1,0 +1,232 @@
+/* delete when done */
+
+/* .col-md-2,
+.col-md-1 {
+  border: red solid 2px;
+} */
+
+/* .top-space li a {
+  font-weight: 900;
+  border: red solid 2px;
+  line-height: 3rem;
+} */
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 599px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (max-width: 320px) {
+}
+
+/* code for entire website */
+
+/* #html {
+  font-size: 62.5%;
+  color: black;
+} */
+
+.textColor {
+  color: black;
+}
+
+/* reuse code */
+
+.pad-sm-bottom {
+  margin-bottom: 2rem;
+}
+
+.pad-med-bottom {
+  margin-bottom: 5rem;
+}
+
+.pad-lar-bottom {
+  margin-bottom: 7rem;
+}
+
+.pad-sm-top {
+  margin-top: 1rem;
+}
+
+.pad-med-top {
+  margin-top: 5rem;
+}
+
+.pad-lar-top {
+  margin-top: 7rem;
+}
+
+.hov:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+.space-line {
+  border: 1px solid grey;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.center-text-LR {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.center-text-LR2 {
+  padding-left: 13rem;
+  padding-right: 13rem;
+}
+
+.center-text-TP {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.sm-size {
+  width: 10rem;
+  height: 5rem;
+}
+
+.med-size {
+  width: 15rem;
+  height: 5rem;
+}
+
+.line-height-sm {
+  line-height: 3rem;
+}
+
+.spacing-sm {
+  margin-right: 0.5rem;
+}
+
+.spacing-med {
+  margin-right: 1.5rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* basic code all pages */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  height: 58vh;
+}
+
+.container {
+  width: 100%;
+}
+
+/* footer top */
+
+.footer-top {
+  text-align: center;
+}
+
+#email {
+  width: 30%;
+  height: 4.8rem;
+}
+
+/* footer list  */
+
+.list ul li {
+  list-style: none;
+}
+
+.list ul li a {
+  text-decoration: underline;
+  color: black;
+  line-height: 3rem;
+}
+
+.list ul li a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+/* bold word */
+
+.border {
+  border: solid 1px green;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 1rem;
+}
+
+.border-button {
+  border: solid 1px green;
+  background-color: green;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  margin-left: -10px;
+  height: 5rem;
+  width: 10rem;
+  font-size: 2rem;
+}
+
+/* bottom section footer images */
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.position-right {
+  text-align: right;
+  margin-top: -1.5rem;
+}
+
+.app-links {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.img-block {
+  display: inline;
+}
+
+/* footer javascript css */
+
+.country-location {
+  text-align: right;
+}
+
+/* fontawesome icons style */
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-twitter-square {
+  color: #00acee;
+}
+.fa-instagram-square {
+  color: #3f729b;
+}
+
+#email::-webkit-input-placeholder {
+  padding-left: 1rem;
+}
