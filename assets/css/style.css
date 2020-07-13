@@ -29,6 +29,16 @@
 @media only screen and (max-width: 320px) {
 }
 
+/* 4 boxes css */
+
+.hideBoxes {
+  display: none;
+}
+
+.cursor img {
+  cursor: pointer;
+}
+
 /* code for entire website */
 
 /* #html {
@@ -63,7 +73,7 @@
 }
 
 .pad-lar-top {
-  margin-top: 7rem;
+  margin-top: 17rem;
 }
 
 .hov:hover {
@@ -102,6 +112,11 @@
   height: 5rem;
 }
 
+.lar-size {
+  width: 30rem;
+  height: 25rem;
+}
+
 .line-height-sm {
   line-height: 3rem;
 }
@@ -128,7 +143,7 @@
 }
 
 main {
-  height: 58vh;
+  height: 70vh;
 }
 
 .container {

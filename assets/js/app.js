@@ -40,11 +40,18 @@ function changeTitle() {
 // after a 3 second wait the user country locaton is shown in the footer of the web page
 
 function userLocation() {
-  setTimeout(function(){
-      $.getJSON("http://127.0.0.1:5500/assets/js/info.json", function (data) {
-          jQuery(".country-location").html(data.geobytescountry);
-      });
+  setTimeout(function () {
+    $.getJSON("http://127.0.0.1:5500/assets/js/info.json", function (data) {
+      jQuery(".country-location").html(data.geobytescountry);
+    });
   }, 3000);
 }
 
 userLocation();
+
+// onlcick image text
+
+function showBox(posi) {
+  $(".text-box-" + posi).show();
+  //$(".text-box").hide();
+}
