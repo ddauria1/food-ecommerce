@@ -52,6 +52,11 @@ userLocation();
 // onlcick image text
 
 function showBox(posi) {
-  $(".text-box-" + posi).show();
-  //$(".text-box").hide();
+  if($(".text-box-" + posi).is(':visible')){
+      $(".text-box-" + posi).hide();
+  }else{
+      $(".text-box-" + posi).show();
+  }
+
+
 }
