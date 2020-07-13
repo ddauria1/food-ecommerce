@@ -16,7 +16,7 @@ function userAgent() {
 // this provides the json object information
 
 function getUserInfo() {
-  $.getJSON("http://127.0.0.1:5500/assets/js/info.json", function (data) {
+  $.getJSON(wwwrooot+"/assets/js/info.json", function (data) {
     console.log(data);
     alert(data.geobytescapital);
   });
@@ -28,7 +28,7 @@ function getUserInfo() {
 // show the location of the user aswell
 
 function changeTitle() {
-  $.getJSON("http://127.0.0.1:5500/assets/js/info.json", function (data) {
+  $.getJSON(wwwrooot+"/assets/js/info.json", function (data) {
     jQuery(".navbar-brand").html(
       jQuery(".navbar-brand").html() + " (" + data.geobytescapital + ") "
     );
@@ -41,7 +41,7 @@ function changeTitle() {
 
 function userLocation() {
   setTimeout(function () {
-    $.getJSON("http://127.0.0.1:5500/assets/js/info.json", function (data) {
+    $.getJSON(wwwrooot+"/assets/js/info.json", function (data) {
       jQuery(".country-location").html(data.geobytescountry);
     });
   }, 3000);
