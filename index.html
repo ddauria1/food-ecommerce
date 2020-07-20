@@ -119,6 +119,64 @@
           </div>
         </div>
       </div>
+
+      <div class="checkAge center-text-huge">
+        <div class="footer-header">
+          <h3 class="pad-sm-bottom">Age Check</h3>
+          <p class="pad-sm-bottom">
+            Please note you must be over the age of 18
+          </p>
+        </div>
+
+        <div>
+          <input
+            type="number"
+            name="user age"
+            id="age"
+            placeholder="Age"
+            required
+          />
+          <button class="border-button" onclick="ageCheck()">Send</button>
+        </div>
+      </div>
+
+      <p class="ageResult"></p>
+
+      <!--submit form section -->
+
+      <div class="form form-style-border">
+        <h3 class="subTitle">Please enter your details below</h3>
+        <p class="text">All feilds must be completed</p>
+
+        <div class="form--input">
+          <input
+            type="text"
+            name="first-name"
+            placeholder="First Name"
+            id="input--firstName"
+          />
+
+          <input
+            type="text"
+            name="last-name"
+            placeholder="Last Name"
+            id="input--lastName"
+          />
+
+          <input
+            type="email"
+            name="email address"
+            id="input--email"
+            placeholder="Email Address"
+          />
+
+          <button class="submitForm" onclick="sendForm()">
+            Submit
+          </button>
+
+          <p class="form--result"></p>
+        </div>
+      </div>
     </main>
 
     <footer class="container">

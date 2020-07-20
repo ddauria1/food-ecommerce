@@ -11,6 +11,49 @@
   line-height: 3rem;
 } */
 
+.errorMessage {
+  color: yellow;
+  font-weight: bold;
+}
+
+.okMessage {
+  color: green;
+  font-weight: bold;
+}
+
+/* form complete name surnamea dn email */
+
+.style-block {
+  display: block;
+}
+
+.form-style-border {
+  border: 2px solid green;
+}
+
+.form {
+  width: max-content;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+}
+
+.form--result {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: -1rem;
+}
+
+.formResult-style {
+  border: 2px dotted blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+  font-style: italic;
+  padding: 0.5rem;
+  color: orangered;
+}
+
 @media only screen and (max-width: 1199px) {
 }
 
@@ -87,6 +130,10 @@
   margin-bottom: 2rem;
 }
 
+.center-text-huge {
+  padding-left: 30rem;
+}
+
 .center-text-LR {
   padding-left: 15rem;
   padding-right: 15rem;
@@ -143,7 +190,7 @@
 }
 
 main {
-  height: 70vh;
+  height: max-content;
 }
 
 .container {

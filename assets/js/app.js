@@ -16,7 +16,7 @@ function userAgent() {
 // this provides the json object information
 
 function getUserInfo() {
-  $.getJSON(wwwrooot+"/assets/js/info.json", function (data) {
+  $.getJSON(wwwrooot + "/assets/js/info.json", function (data) {
     console.log(data);
     alert(data.geobytescapital);
   });
@@ -28,7 +28,7 @@ function getUserInfo() {
 // show the location of the user aswell
 
 function changeTitle() {
-  $.getJSON(wwwrooot+"/assets/js/info.json", function (data) {
+  $.getJSON(wwwrooot + "/assets/js/info.json", function (data) {
     jQuery(".navbar-brand").html(
       jQuery(".navbar-brand").html() + " (" + data.geobytescapital + ") "
     );
@@ -41,8 +41,9 @@ function changeTitle() {
 
 function userLocation() {
   setTimeout(function () {
-    $.getJSON(wwwrooot+"/assets/js/info.json", function (data) {
+    $.getJSON(wwwrooot + "/assets/js/info.json", function (data) {
       jQuery(".country-location").html(data.geobytescountry);
+      currentDate();
     });
   }, 3000);
 }
@@ -52,11 +53,54 @@ userLocation();
 // onlcick image text
 
 function showBox(posi) {
-  if($(".text-box-" + posi).is(':visible')){
-      $(".text-box-" + posi).hide();
-  }else{
-      $(".text-box-" + posi).show();
+  if ($(".text-box-" + posi).is(":visible")) {
+    $(".text-box-" + posi).hide();
+  } else {
+    $(".text-box-" + posi).show();
   }
+}
 
+// current time
 
+function currentDate() {
+  $(".country-location").after(
+    '<span id="newDT" onclick="newDateAndTime()">' + new Date() + "</span>"
+  );
+}
+
+function newDateAndTime() {
+  $("#newDT").text(new Date());
+}
+
+function ageCheck() {
+  age = $("#age").val();
+
+  console.log(age);
+
+  if (age == "") {
+    $(".ageResult").html(
+      "<span class='errorMessage'> please add correct age value </span>"
+    );
+
+    red;
+  } else {
+    if (age > 18) {
+      $(".ageResult").html(
+        "<span class='okMessage'> You are old enough </span>"
+      );
+    } else {
+      $(".ageResult").html(
+        "<span class='errorMessage'> You are to Young </span>"
+      );
+      red;
+    }
+  }
+}
+
+function sendForm() {
+  $(".form--result").text(
+    `${$("#input--firstName").val()} ${$("#input--lastName").val()} ${$(
+      "#input--email"
+    ).val()}`
+  );
 }
