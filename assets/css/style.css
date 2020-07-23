@@ -54,6 +54,8 @@
   color: orangered;
 }
 
+/* table */
+
 @media only screen and (max-width: 1199px) {
 }
 
@@ -90,6 +92,23 @@
 } */
 
 .textColor {
+  color: black;
+}
+
+/* table */
+
+table {
+  width: 50rem;
+}
+
+.table--even {
+  background-color: blue;
+  color: white;
+  width: 20rem;
+}
+
+.table--odd {
+  background-color: grey;
   color: black;
 }
 
