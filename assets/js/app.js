@@ -98,9 +98,31 @@ function ageCheck() {
 }
 
 function sendForm() {
-  $(".form--result").text(
-    `${$("#input--firstName").val()} ${$("#input--lastName").val()} ${$(
-      "#input--email"
-    ).val()}`
+  $(".form--result").html(
+    `<span class='formResult-style'>${$("#input--firstName").val()} ${$(
+      "#input--lastName"
+    ).val()} ${$("#input--email").val()}</span>`
   );
+}
+
+function boxHide() {
+  $(".form--result").hide();
+}
+
+// html table
+
+function rowChange() {
+  setTimeout(function () {
+    even(), odd();
+  }, 3000);
+}
+
+rowChange();
+
+function even() {
+  $(".tr-test").html(`<span class='table--even'>${$("tr:even").val()}</span>`);
+}
+
+function odd() {
+  $(".tr-test").html(`<span class='table--odd'>${$("tr:odd").val()}</span>`);
 }
