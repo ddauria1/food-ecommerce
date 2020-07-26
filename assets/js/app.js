@@ -120,9 +120,27 @@ function rowChange() {
 rowChange();
 
 function even() {
-  $(".tr-test").html(`<span class='table--even'>${$("tr:even").val()}</span>`);
+  $("table tr:even").css("background", "blue");
 }
 
 function odd() {
-  $(".tr-test").html(`<span class='table--odd'>${$("tr:odd").val()}</span>`);
+  $("table tr:odd").css({ background: "green", color: "white" });
 }
+
+// change border of form
+
+function changeBorder() {
+  setTimeout(function () {
+    $(".form-style-border").css({ border: "solid blue 10px" });
+  }, 3000);
+}
+
+changeBorder();
+
+function changeName() {
+  setTimeout(function () {
+    $(".subTitle").html("please enter your details");
+  }, 3000);
+}
+
+changeName();
