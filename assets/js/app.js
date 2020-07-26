@@ -144,3 +144,27 @@ function changeName() {
 }
 
 changeName();
+
+// age form - only works with timeout included
+
+function ageInput() {
+  setTimeout(function () {
+    $(".form-style-input").css({
+      width: "30rem",
+      height: "4rem",
+    });
+  });
+}
+
+ageInput();
+
+function ageButton() {
+  setTimeout(function () {
+    $(".form-style-button").css({
+      width: "7rem",
+      height: "4rem",
+    });
+  });
+}
+
+ageButton();
