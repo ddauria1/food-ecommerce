@@ -52,6 +52,12 @@ userLocation();
 
 // onlcick image text
 
+$(document).ready(function () {
+  $(".food").click(function () {
+    showBox($(this).attr("number"));
+  });
+});
+
 function showBox(posi) {
   if ($(".text-box-" + posi).is(":visible")) {
     $(".text-box-" + posi).hide();
@@ -105,7 +111,7 @@ function sendForm() {
   );
 }
 
-function boxHide() {
+function boxHides() {
   $(".form--result").hide();
 }
 
@@ -148,23 +154,80 @@ changeName();
 // age form - only works with timeout included
 
 function ageInput() {
-  setTimeout(function () {
-    $(".form-style-input").css({
-      width: "30rem",
-      height: "4rem",
-    });
+  $(".form-style-input").css({
+    width: "30rem",
+    height: "4rem",
   });
 }
-
-ageInput();
 
 function ageButton() {
-  setTimeout(function () {
-    $(".form-style-button").css({
-      width: "7rem",
-      height: "4rem",
-    });
+  $(".form-style-button").css({
+    width: "7rem",
+    height: "4rem",
   });
 }
 
-ageButton();
+$(document).ready(function () {
+  ageInput();
+  ageButton();
+  tester();
+  boxHide();
+  ageCheck();
+});
+
+// jquery event change
+
+function tester() {
+  $(".submitForm").click(function () {
+    $(".form--result").html(
+      `<span class='formResult-style'>${$("#input--firstName").val()} ${$(
+        "#input--lastName"
+      ).val()} ${$("#input--email").val()}</span>`
+    );
+  });
+}
+
+function boxHide() {
+  $(".box-hide").click(function () {
+    $(".form--result").hide();
+  });
+}
+
+function ageCheck() {
+  $(".age-submit").click(function () {
+    age = $("#age").val();
+
+    console.log(age);
+
+    if (age == "") {
+      $(".ageResult").html(
+        "<span class='errorMessage'> please add correct age value </span>"
+      );
+
+      red;
+    } else {
+      if (age > 18) {
+        $(".ageResult").html(
+          "<span class='okMessage'> You are old enough </span>"
+        );
+      } else {
+        $(".ageResult").html(
+          "<span class='errorMessage'> You are to Young </span>"
+        );
+        red;
+      }
+    }
+  });
+}
+
+// does this one need to be changed? - also what is newDT
+
+// function currentDate() {
+//   $(".country-location").after(
+//     '<span id="newDT" onclick="newDateAndTime()">' + new Date() + "</span>"
+//   );
+// }
+
+// function newDateAndTime() {
+//   $("#newDT").text(new Date());
+// }
