@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let task = ["X:-1", "Y:1", "X:-4", "B:3", "X:5"];
+      let task2 = ["Z:0", "A:-1"];
+      let task3 = [{ x: 1, x: 10 }];
+
+      // attempt 1
+      let val = task3.reduce(function (previousValue, currentValue) {
+        return {
+          x: previousValue.task3 + currentValue.task3,
+        };
+      });
+
+      console.log(val);
+
+      // attempt 2
+
+      function GroupTotals(strArr) {
+        let newTask = "";
+        for (i = 0; i < task.length; i++) {
+          if (strArr[i] != "X:" && strArr[i] != Number) {
+            newTask += strArr[i];
+          }
+        }
+        return newTask;
+      }
+      // b:3 Y:1
+
+      console.log(GroupTotals(task));
+      //readline()
+
+      // attempt 3
+
+      function Group(items) {
+        let a1 = task[0];
+        let a2 = task[2];
+
+        return a1 - a2;
+      }
+
+      console.log(Group(task));
+
+      // s-------------------------------------------------------------------
+
+      let list = ["a,b,c,d", "a,b,c,d,-B,d"];
+
+      function remove(data) {
+        let newString = " ";
+        for (i = 0; i < data.length; i++) {
+          if (data[i] != "-" && data[i] != "B") {
+            newString += data[i];
+          }
+        }
+
+        return newString;
+      }
+
+      function EquivalentKeypresses(strArr) {
+        let fullList = remove(strArr[0]);
+        let fullList1 = remove(strArr[1]);
+
+        console.log(fullList, fullList1);
+
+        if (fullList == fullList1) {
+          return "true";
+        } else {
+          return "false";
+        }
+      }
+
+      console.log(EquivalentKeypresses(list));
+    </script>
+  </body>
+</html>

@@ -170,14 +170,9 @@ function ageButton() {
 $(document).ready(function () {
   ageInput();
   ageButton();
-  tester();
-  boxHide();
-  ageCheck();
-});
 
-// jquery event change
+  // jquery event change
 
-function tester() {
   $(".submitForm").click(function () {
     $(".form--result").html(
       `<span class='formResult-style'>${$("#input--firstName").val()} ${$(
@@ -185,15 +180,11 @@ function tester() {
       ).val()} ${$("#input--email").val()}</span>`
     );
   });
-}
 
-function boxHide() {
   $(".box-hide").click(function () {
     $(".form--result").hide();
   });
-}
 
-function ageCheck() {
   $(".age-submit").click(function () {
     age = $("#age").val();
 
@@ -218,7 +209,7 @@ function ageCheck() {
       }
     }
   });
-}
+});
 
 // does this one need to be changed? - also what is newDT
 
