@@ -7,45 +7,82 @@
   </head>
   <body>
     <script>
+      let teams = [
+        "roma:2",
+        "napoli:3 ",
+        "liverpool: 4",
+        "roma:1",
+        "napoli:7",
+        "liverpool: 9",
+        "roma:3",
+        "napoli:5",
+        "liverpool: 1",
+      ];
+
+      function teamScore(score) {
+        let teamTotal = [];
+        for (i = 0; i < score.length; i++) {
+          let breakdown = score[i].split(":");
+
+          if (teamTotal[breakdown[0]]) {
+            teamTotal[breakdown[0]] += parseInt(breakdown[1]);
+          } else {
+            teamTotal[breakdown[0]] = parseInt(breakdown[1]);
+          }
+        }
+        return teamTotal;
+      }
+
+      console.log(teamScore(teams));
+
+      // -----------------------------------------------------------------------------------------------------------------
+
       let task = ["X:-1", "Y:1", "X:-4", "B:3", "X:5"];
       let task2 = ["Z:0", "A:-1"];
-      let task3 = [{ x: 1, x: 10 }];
+      // let task3 = [{ x: 1, x: 10 }];
 
-      // attempt 1
-      let val = task3.reduce(function (previousValue, currentValue) {
-        return {
-          x: previousValue.task3 + currentValue.task3,
-        };
-      });
+      // // attempt 1
+      // let val = task3.reduce(function (previousValue, currentValue) {
+      //   return {
+      //     x: previousValue.task3 + currentValue.task3,
+      //   };
+      // });
 
-      console.log(val);
+      // console.log(val);
 
       // attempt 2
 
       function GroupTotals(strArr) {
         let newTask = "";
-        for (i = 0; i < task.length; i++) {
-          if (strArr[i] != "X:" && strArr[i] != Number) {
-            newTask += strArr[i];
+        let count3 = [];
+        for (i = 0; i < strArr.length; i++) {
+          let total = strArr[i].split(":");
+          console.log(total);
+
+          if (count3[total[0]]) {
+            count3[total[0]] += parseInt(total[1]);
+          } else {
+            count3[total[0]] = parseInt(total[1]);
           }
         }
-        return newTask;
+
+        return count3;
       }
       // b:3 Y:1
 
       console.log(GroupTotals(task));
-      //readline()
+      // //readline()
 
-      // attempt 3
+      // // attempt 3
 
-      function Group(items) {
-        let a1 = task[0];
-        let a2 = task[2];
+      // function Group(items) {
+      //   let a1 = task[0];
+      //   let a2 = task[2];
 
-        return a1 - a2;
-      }
+      //   return a1 - a2;
+      // }
 
-      console.log(Group(task));
+      // console.log(Group(task));
 
       // s-------------------------------------------------------------------
 
