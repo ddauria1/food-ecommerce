@@ -1,3 +1,20 @@
+//pop up appears when the web page loads
+
+$(document).ready(function () {
+  setTimeout(function () {
+    Swal.fire({
+      title: "Are latest deals and more",
+      text: "Are you after the best items at the lowest cost?",
+      imageUrl: "./img/20%off.jpg",
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: "20% off",
+      confirmButtonText: "Click here to find out more!",
+      showCloseButton: true,
+    });
+  }, 1000);
+});
+
 //produces an alert for the userAgent, The userAgent property returns the value of the user-agent header sent
 //by the browser to the server. The value returned, contains information about the name, version and platform
 //of the browser.
@@ -191,23 +208,41 @@ $(document).ready(function () {
     console.log(age);
 
     if (age == "") {
-      $(".ageResult").html(
-        "<span class='errorMessage'> please add correct age value </span>"
-      );
-
-      red;
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Please complete this feild to proceed",
+      });
     } else {
       if (age > 18) {
-        $(".ageResult").html(
-          "<span class='okMessage'> You are old enough </span>"
-        );
+        Swal.fire({
+          icon: "success",
+          title: "Hurray",
+          text: "You have confirmed your over 18, please proceed",
+        });
       } else {
-        $(".ageResult").html(
-          "<span class='errorMessage'> You are to Young </span>"
-        );
-        red;
+        Swal.fire({
+          icon: "warning",
+          title: "No entry",
+          text: "Please note you must be over the age of 18",
+        });
       }
     }
+
+    // if (age == "") {
+    //   $(".ageResult").html(
+    //     "<span class='errorMessage'> please add correct age value </span>"
+    //   );
+    // } else {
+    //   if (age > 18) {
+    //     $(".ageResult").html("<span class='okMessage'> You are old enough </span>");
+    //   } else {
+    //     $(".ageResult").html(
+    //       "<span class='errorMessage'> You are to Young </span>"
+    //     );
+    //     red;
+    //   }
+    // }
   });
 });
 
@@ -222,3 +257,23 @@ $(document).ready(function () {
 // function newDateAndTime() {
 //   $("#newDT").text(new Date());
 // }
+
+// sweetalert
+
+function tester1() {
+  Swal.fire("Any fool can use a computer");
+}
+
+//table code
+// $(document).ready(function () {
+//   $("#table_id").DataTable();
+// });
+
+$(document).ready(function () {
+  var table = $("#example").DataTable();
+
+  $("#example tbody").on("click", "tr", function () {
+    var data = table.row(this).data();
+    alert("You clicked on " + data[0] + "'s row");
+  });
+});
