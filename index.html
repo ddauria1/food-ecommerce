@@ -33,15 +33,16 @@
       src="https://kit.fontawesome.com/30511564b5.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <link
       rel="stylesheet"
       type="text/css"
-      href="https://cdn.datatables.net/v/dt/dt-1.10.21/af-2.3.5/b-1.6.3/fc-3.3.1/fh-3.1.7/r-2.2.5/sc-2.0.2/sl-1.3.1/datatables.min.css"
+      href="https://cdn.datatables.net/v/dt/dt-1.10.21/af-2.3.5/b-1.6.3/r-2.2.5/sc-2.0.2/datatables.min.css"
     />
 
     <script
       type="text/javascript"
-      src="https://cdn.datatables.net/v/dt/dt-1.10.21/af-2.3.5/b-1.6.3/fc-3.3.1/fh-3.1.7/r-2.2.5/sc-2.0.2/sl-1.3.1/datatables.min.js"
+      src="https://cdn.datatables.net/v/dt/dt-1.10.21/af-2.3.5/b-1.6.3/r-2.2.5/sc-2.0.2/datatables.min.js"
     ></script>
   </head>
   <body>
@@ -274,37 +275,15 @@
       </div>
 
       <!-- currenct table  -->
-      <table>
+      <table id="table_id">
         <thead>
-          <th>
-            Country Currency
-          </th>
-        </thead>
-        <tbody>
           <tr>
             <th>Country</th>
             <th>Currency</th>
             <th>Converstion</th>
           </tr>
-
-          <tr class="tr-test">
-            <td>UK</td>
-            <td>Pound</td>
-            <td>£</td>
-          </tr>
-
-          <tr class="tr-test">
-            <td>Italy</td>
-            <td>Euro</td>
-            <td>€</td>
-          </tr>
-
-          <tr class="tr-test">
-            <td>Australia</td>
-            <td>Dollar</td>
-            <td>$</td>
-          </tr>
-
+        </thead>
+        <tbody>
           <tr class="tr-test">
             <td>UK</td>
             <td>Pound</td>

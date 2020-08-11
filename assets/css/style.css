@@ -1,3 +1,57 @@
+/* pop ups */
+.popUp {
+  display: flex;
+}
+
+.mainImg {
+  float: left;
+  width: 50%;
+}
+
+.popTitle {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.subText {
+  float: left;
+}
+
+.rightSide {
+  float: right;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+}
+
+#input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.popUpButton {
+  border: solid 1px green;
+  background-color: green;
+  color: white;
+  border-radius: 0.5rem;
+  height: 5rem;
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.popUpButton2 {
+  text-transform: uppercase;
+  border: none;
+  background-color: white;
+  color: green;
+  height: 5rem;
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
 /* delete when done */
 
 /* .col-md-2,
