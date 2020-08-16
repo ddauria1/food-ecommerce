@@ -46,6 +46,27 @@
     ></script>
   </head>
   <body>
+
+<?php
+
+$data = [
+  "name" => "Home | Commernce"
+];
+
+if(isset($_GET["p"])){
+  $data ["name"] = ucfirst($_GET["p"]). " | Commernce";
+  
+}
+
+if(isset($_GET["p"]) && $_GET["p"]=="about"){  header("Location:about.php");
+   exit(); 
+}
+
+if(isset($_GET["p"]) && $_GET["p"]=="contact"){  header("Location:contact.php");
+    exit();
+}
+
+?>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -68,8 +89,9 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li <?php if(!isset($_GET["p"])){ print "class='active'"; } ?>><a href="index.php">Home</a></li>
+            <li <?php if(isset($_GET["p"]) && $_GET["p"]=="about"){ print " class='active' ";} ?> ><a href="index.php?p=about" >About</a></li>
+            <li <?php if(isset($_GET["p"]) && $_GET["p"]=="contact"){ print " class='active' ";} ?>><a href="index.php?p=contact">Contact</a></li>
           </ul>
         </div>
         <!--/.nav-collapse -->
@@ -77,7 +99,7 @@
     </nav>
     <main class="container" style="margin-top: 100px;">
       <div>
-        <h1 class="col-md-12">Food | E-Commerce</h1>
+        <h1 class="col-md-12"><?php print $data["name"] ?></h1>
       </div>
 
       <button onclick="tester1()">new deals</button>
