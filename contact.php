@@ -47,7 +47,7 @@
   </head>
   <body>
 
-<?php
+<!-- <?php
 $data = [
   "name" => "Home | Commernce"
 ];
@@ -58,7 +58,7 @@ $data ["name"] = ucfirst($_GET["p"]). " | Commernce";
 }
 
 
-?>
+?> -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -91,7 +91,7 @@ $data ["name"] = ucfirst($_GET["p"]). " | Commernce";
     </nav>
     <main class="container" style="margin-top: 100px;">
       <div>
-        <h1 class="col-md-12"><?php print $data["name"] ?></h1>
+        <h1 class="col-md-12">Contact | Commernce</h1>
       </div>
 
 

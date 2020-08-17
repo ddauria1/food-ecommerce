@@ -46,7 +46,7 @@
     ></script>
   </head>
   <body>
-
+<!-- 
   <?php
 
 if(isset($_GET["p"]) && $_GET["p"]=="about"){  header("Location:about.php");
@@ -64,7 +64,7 @@ $data ["name"] = ucfirst($_GET["p"]). " | Commernce";
 
 }
 
-?>
+?> -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -97,7 +97,7 @@ $data ["name"] = ucfirst($_GET["p"]). " | Commernce";
     </nav>
     <main class="container" style="margin-top: 100px;">
       <div>
-        <h1 class="col-md-12"><?php print $data["name"] ?></h1>
+        <h1 class="col-md-12">About | Commernce</h1>
       </div>
 
       <!-- currenct table  -->
