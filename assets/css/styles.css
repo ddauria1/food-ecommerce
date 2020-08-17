@@ -1,0 +1,13 @@
+.bannertop {
+  max-height: 200px;
+  background-image: url("assets/img/home/food-1.jpg");
+  width: 100%;
+}
+
+/* .banner {
+  
+} */
+
+.content {
+  background-color: white;
+}
