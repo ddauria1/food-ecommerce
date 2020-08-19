@@ -33,6 +33,7 @@
     <script src="assets/js/app.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/styleterm.css" />
+    <link rel="stylesheet" href="assets/css/styleworks.css" />
     <script
       src="https://kit.fontawesome.com/30511564b5.js"
       crossorigin="anonymous"
@@ -77,6 +78,7 @@
             <li <?php if(isset($_GET["p"]) && $_GET["p"]=="about"){ print " class='active' ";} ?> ><a href="index.php?p=about" >About</a></li>
             <li <?php if(isset($_GET["p"]) && $_GET["p"]=="contact"){ print " class='active' ";} ?>><a href="index.php?p=contact">Contact</a></li>
             <li <?php if(isset($_GET["p"]) && $_GET["p"]=="termsandconditions"){ print " class='active' ";} ?>><a href="index.php?p=termsandconditions">terms and conditions</a></li>
+            <li <?php if(isset($_GET["p"]) && $_GET["p"]=="howitworks"){ print " class='active' ";} ?>><a href="index.php?p=howitworks">how it works</a></li>
           </ul>
         </div>
         <!--/.nav-collapse -->
@@ -92,7 +94,9 @@
                 include 'contact.php';
             }else if(isset($_GET['p']) && $_GET['p']=="termsandconditions"){
                 include 'termsandconditions.php';
-          }else{
+            }else if(isset($_GET['p']) && $_GET['p']=="howitworks"){
+                include 'howitworks.php';
+            }else{
                 $data = [ "name" => "Home | Commernce" ];
                 include 'home.php';
             }

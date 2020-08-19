@@ -5,7 +5,7 @@ $(document).ready(function () {
     Swal.fire({
       title: "Are latest deals and more",
       text: "Are you after the best items at the lowest cost?",
-      imageUrl: "../assets/img/20off.jpg",
+      imageUrl: "../img/20off.jpg",
 
       imageWidth: 400,
       imageHeight: 200,
