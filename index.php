@@ -2,7 +2,7 @@
 <html>
   <head>
 
-  <!-- http://localhost:8080/food-ecommerce/about.php -->
+  <!-- http://localhost:8080/food-ecommerce/index.php -->
   
     <title>Food | E-Commerce v5</title>
     <meta charset="utf-8" />
@@ -32,6 +32,7 @@
     <script src="assets/js/config.js"></script>
     <script src="assets/js/app.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/styleterm.css" />
     <script
       src="https://kit.fontawesome.com/30511564b5.js"
       crossorigin="anonymous"
@@ -75,6 +76,7 @@
             <li <?php if(!isset($_GET["p"])){ print "class='active'"; } ?>><a href="index.php">Home</a></li>
             <li <?php if(isset($_GET["p"]) && $_GET["p"]=="about"){ print " class='active' ";} ?> ><a href="index.php?p=about" >About</a></li>
             <li <?php if(isset($_GET["p"]) && $_GET["p"]=="contact"){ print " class='active' ";} ?>><a href="index.php?p=contact">Contact</a></li>
+            <li <?php if(isset($_GET["p"]) && $_GET["p"]=="termsandconditions"){ print " class='active' ";} ?>><a href="index.php?p=termsandconditions">terms and conditions</a></li>
           </ul>
         </div>
         <!--/.nav-collapse -->
@@ -88,7 +90,9 @@
             }else if(isset($_GET['p']) && $_GET['p']=="contact"){
                 $data = [ "name" => "Contact | Commernce" ];
                 include 'contact.php';
-            }else{
+            }else if(isset($_GET['p']) && $_GET['p']=="termsandconditions"){
+                include 'termsandconditions.php';
+          }else{
                 $data = [ "name" => "Home | Commernce" ];
                 include 'home.php';
             }

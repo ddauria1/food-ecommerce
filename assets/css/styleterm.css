@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bannertop {
+  height: 427px;
+  background-image: url("../img/home/food-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100vw;
+  margin-left: -15px;
+  margin-top: -29px;
+}
+
+.content {
+  background-color: white;
+  margin: 3rem auto;
+  width: 100rem;
+}
+
+.setin {
+  padding: 0rem 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  padding: 3rem 2rem;
+}
+
+.subhead1 {
+  font-weight: 700;
+}
+
+h2,
+h3,
+p {
+  font-size: 12px;
+}
+
+.line {
+  border-top: 0.5px solid black;
+  margin: 3rem 0rem;
+  opacity: 0.2;
+}
+
+ul li {
+  list-style: none;
+  padding-bottom: 2rem;
+}
