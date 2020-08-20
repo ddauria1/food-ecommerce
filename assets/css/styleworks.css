@@ -94,14 +94,15 @@ h2 {
 
 .questions {
   width: 50rem;
-  display: flex;
-  align-items: center;
 }
 
-.faqtext {
-  display: block;
-  width: 100%;
-  color: red;
+.margin-top {
+  margin-top: 1rem;
+}
+
+.faqflex {
+  display: flex;
+  align-items: center;
 }
 
 .FAQSbutton {
