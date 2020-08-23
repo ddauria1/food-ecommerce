@@ -1,0 +1,20 @@
+.questiondropdown {
+  display: grid;
+  grid-template-columns: min-content;
+  grid-template-rows: repeat(8, min-content);
+}
+
+.section {
+  width: 50rem;
+  border: solid black 2px;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+}
+
+.far {
+  color: red;
+  justify-items: flex-end;
+}

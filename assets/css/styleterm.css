@@ -26,18 +26,17 @@
 
 .title {
   text-align: center;
-  font-size: 24px;
+  font-size: 38px;
   padding: 3rem 2rem;
 }
 
-.subhead1 {
-  font-weight: 700;
+.terms-font-size {
+  font-size: 12px;
 }
 
-h2,
-h3,
-p {
-  font-size: 12px;
+.terms-font-subhead {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .line {

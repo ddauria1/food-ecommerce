@@ -1,11 +1,11 @@
 <div class="bannertop"></div>
 
-<div class="content">
+<div class="content terms-font-size">
   <h1 class="title">HELLOFRESH UK TERMS AND CONDITIONS</h1>
 
   <div class="line"></div>
 
-  <h2 class="subhead1 setin">1. INFORMATION ABOUT US</h2>
+  <h2 class="setin terms-font-subhead">1. INFORMATION ABOUT US</h2>
 
   <div class="line"></div>
 
@@ -51,7 +51,7 @@
 
   <div class="line"></div>
 
-  <h2 class="subhead2 setin">2. SERVICE AVAILABILITY</h2>
+  <h2 class="setin terms-font-subhead">2. SERVICE AVAILABILITY</h2>
 
   <div class="line"></div>
 
@@ -66,11 +66,11 @@
 
   <div class="line"></div>
 
-  <h2 class="subhead setin">3. YOUR STATUS</h2>
+  <h2 class="setin terms-font-subhead">3. YOUR STATUS</h2>
 
   <div class="line"></div>
 
-  <p class="subhead3 setin">
+  <p class="setin">
     By placing an order through our site, you warrant that:
   </p>
 

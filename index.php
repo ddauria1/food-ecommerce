@@ -136,7 +136,7 @@
       <!-- middle section of footer -->
       <div class="row pad-sm-bottom center-text-LR">
         <div class="col-md-2">
-          <hi class="title"> Hello Fresh</hi>
+          <h1 class="titles"> Hello Fresh</h1>
           <div class="list">
             <ul>
               <li class="pad-sm-top"><a href="#">Gift cards</a></li>
@@ -150,7 +150,7 @@
         </div>
 
         <div class="col-md-2">
-          <hi class="title"> Our Company</hi>
+          <h1 class="titles"> Our Company</h1>
           <div class="list">
             <ul class="line-height-sm">
               <li class="pad-sm-top"><a href="#">Hello Fresh Group</a></li>
@@ -164,7 +164,7 @@
         </div>
 
         <div class="col-md-2">
-          <hi class="title"> Help</hi>
+          <h1 class="titles"> Help</h1>
           <div class="list">
             <ul class="line-height-sm">
               <li class="pad-sm-top"><a href="#">Find an answer</a></li>
@@ -176,7 +176,7 @@
         <div class="col-md-2"></div>
 
         <div class="col-md-4">
-          <hi class="title"> Download our App</hi>
+          <h1 class="titles"> Download our App</h1>
           <div class="list">
             <ul>
               <li class="pad-sm-bottom pad-sm-top">
@@ -204,7 +204,7 @@
       <!-- bottom section of footer -->
       <div class="row2 center-text-LR2 center-text-TP">
         <div class="col-md-2">
-          <hi> &copy; Hello Fresh 2020</hi>
+          <h4> &copy; Hello Fresh 2020</h4>
         </div>
 
         <div class="col-md-4">
