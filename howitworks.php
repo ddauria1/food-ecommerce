@@ -208,7 +208,7 @@
     <div class="questions">
       <div class="faqflex">
         <i class="far fa-times-circle fa-3x food" number="6"></i>
-        <h4>What if I don't want a delivery every week?</h4>
+        <h4>And if I don't want a delivery ?</h4>
       </div>
       <div class="text-box-6 hideBoxes margin-top">
         <p>

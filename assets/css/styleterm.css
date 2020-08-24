@@ -17,7 +17,7 @@
 .content {
   background-color: white;
   margin: 3rem auto;
-  width: 100rem;
+  max-width: 100rem;
 }
 
 .setin {
@@ -30,13 +30,142 @@
   padding: 3rem 2rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .title {
+    font-size: 20px;
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 37.6em) {
+  .title {
+    font-size: 20px;
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  .title {
+    font-size: 22px;
+    background-color: pink;
+  }
+}
+@media only screen and (min-width: 68.75em) {
+  .title {
+    font-size: 26px;
+    background-color: blue;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .title {
+    font-size: 30px;
+    background-color: orange;
+  }
+}
+@media only screen and (min-width: 93.75em) {
+  .title {
+    font-size: 34px;
+    background-color: purple;
+  }
+}
+@media only screen and (min-width: 112.5em) {
+  .title {
+    font-size: 38px;
+    background-color: green;
+  }
+}
+
 .terms-font-size {
   font-size: 12px;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .terms-font-size {
+    font-size: 10px;
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 37.6em) {
+  .terms-font-size {
+    font-size: 10px;
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  .terms-font-size {
+    font-size: 12px;
+    background-color: pink;
+  }
+}
+@media only screen and (min-width: 68.75em) {
+  .terms-font-size {
+    font-size: 12px;
+    background-color: blue;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .terms-font-size {
+    font-size: 12px;
+    background-color: orange;
+  }
+}
+@media only screen and (min-width: 93.75em) {
+  .terms-font-size {
+    font-size: 12px;
+    background-color: purple;
+  }
+}
+@media only screen and (min-width: 112.5em) {
+  .terms-font-size {
+    font-size: 12px;
+    background-color: green;
+  }
 }
 
 .terms-font-subhead {
   font-size: 16px;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .terms-font-subhead {
+    font-size: 10px;
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 37.6em) {
+  .terms-font-subhead {
+    font-size: 10px;
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 62.5em) {
+  .terms-font-subhead {
+    font-size: 12px;
+    background-color: pink;
+  }
+}
+@media only screen and (min-width: 68.75em) {
+  .terms-font-subhead {
+    font-size: 14px;
+    background-color: blue;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .terms-font-subhead {
+    font-size: 14px;
+    background-color: orange;
+  }
+}
+@media only screen and (min-width: 93.75em) {
+  .terms-font-subhead {
+    font-size: 16px;
+    background-color: purple;
+  }
+}
+@media only screen and (min-width: 112.5em) {
+  .terms-font-subhead {
+    font-size: 16px;
+    background-color: green;
+  }
 }
 
 .line {

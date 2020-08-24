@@ -9,9 +9,27 @@
   display: grid;
   grid-template-columns: repeat(3, min-content);
   grid-template-rows: repeat(3, min-content);
-  width: 100rem;
+  max-width: 100rem;
   margin: 0rem auto;
   gap: 3rem;
+}
+
+/* @media only screen and (max-width: 37.5em) {
+  .topgrid {
+    font-size: 20px;
+    background-color: red;
+  }
+}
+@media only screen and (max-width: 37.6em) {
+  .topgrid {
+    font-size: 20px;
+    background-color: yellow;
+  }
+} */
+@media only screen and (max-width: 62.5em) {
+  .topgrid {
+    margin: 0rem 3rem;
+  }
 }
 
 .imagesize {
@@ -26,6 +44,12 @@
 .middle {
   width: 30rem;
   text-align: center;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .middle {
+    width: 10rem;
+  }
 }
 
 .right {
@@ -59,6 +83,16 @@ h2 {
   gap: 3rem;
 }
 
+@media only screen and (max-width: 62.5em) {
+  .benefitsgrid {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: repeat(3, min-content);
+    margin: 0rem 3rem;
+    column-gap: 10rem;
+  }
+}
+
 .benefitbutton {
   border: solid 1px green;
   background-color: green;
@@ -83,9 +117,16 @@ h2 {
   display: grid;
   grid-template-columns: repeat(2, min-content);
   grid-template-rows: repeat(3, min-content);
-  width: 100rem;
+  max-width: 100rem;
   margin: 0rem auto;
   gap: 3rem;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .faqgrid {
+    max-width: 100rem;
+    margin: 0rem auto;
+  }
 }
 
 .far {
@@ -93,7 +134,7 @@ h2 {
 }
 
 .questions {
-  width: 50rem;
+  width: 44rem;
 }
 
 .margin-top {
