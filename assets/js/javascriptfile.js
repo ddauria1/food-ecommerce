@@ -55,3 +55,13 @@ function meanFig(input) {
 }
 
 console.log(meanFig(phone));
+
+function minutes() {
+  totalTime = document.getElementById("timeValue");
+
+  totalSeconds = parseInt(totalTime) / 60;
+
+  console.log(totalSeconds);
+}
+
+minutes();
