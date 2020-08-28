@@ -38,3 +38,17 @@ $(document).ready(function () {
     $("p").hide();
   });
 });
+
+function lessThan(input1, input2) {
+  inputTotal = input1 + input2;
+
+  if (typeof inputTotal == "undefined") {
+    return "please enter a number";
+  } else if (inputTotal < 100) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(lessThan());
