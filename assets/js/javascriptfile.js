@@ -1,5 +1,5 @@
 //looked up the function "join, tolowercase, touppercase",
-//took off the internet lower.charAt(0).toUpperCase() + lower.slice(1);
+//took off the internet lower.charAt(0).toUpperCase() + lower.slice(1);  24/08/2020
 
 let array1 = ["g", "i", "a", "n", "l", "u", "c", "a"];
 let array2 = ["G", "E", "N", "A", "R", "O"];
@@ -16,6 +16,8 @@ function oneWord(text1, text2) {
 }
 
 oneWord(array2, array1);
+
+//document.getElementById("stringResult").innerHTML = upper;
 
 // times table from input feild - got stuck needed to use the below example, issue was around the content of the for loop
 //  updates added but did copy and use some of the below code to work out 24/08/2020
@@ -105,3 +107,17 @@ function minutes() {
 }
 
 minutes();
+
+// new task 24/08/2020
+
+// $(document).ready(function () {
+//   $("#inputButton").click(function () {
+//     alert("The paragraph was clicked.");
+//   });
+// });
+
+// function tester1() {
+//   alert("worrking exampler");
+// }
+
+// tester1();
