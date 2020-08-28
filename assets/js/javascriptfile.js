@@ -13,11 +13,10 @@ function oneWord(text1, text2) {
   stringOneWord2 = text2.join("");
   upper = stringOneWord2.toUpperCase();
   console.log(upper);
+  document.getElementById("stringResult").innerHTML = upper;
 }
 
 oneWord(array2, array1);
-
-//document.getElementById("stringResult").innerHTML = upper;
 
 // times table from input feild - got stuck needed to use the below example, issue was around the content of the for loop
 //  updates added but did copy and use some of the below code to work out 24/08/2020
