@@ -12,6 +12,16 @@
     <script src="assets/js/carTable.js"></script>
 
     <link rel="stylesheet" href="assets/css/styletask.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/v/dt/dt-1.10.21/af-2.3.5/b-1.6.3/r-2.2.5/sc-2.0.2/datatables.min.css"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/v/dt/dt-1.10.21/af-2.3.5/b-1.6.3/r-2.2.5/sc-2.0.2/datatables.min.js"
+    ></script>
   </head>
   <body>
     <h2>This is a heading</h2>
@@ -53,24 +63,43 @@
     <input type="text" name="text" id="model" placeholder="model" />
     <input type="number" name="number" id="price" placeholder="price" />
     <button id="inputButton">Submit</button>
-    <button onclick="tester1()">test</button>
+    <p id="inputCar"></p>
+    <br />
+    <br />
+    <br />
 
-    <table id="table_id">
+    <!-- currenct table  -->
+    <table id="table_Jquery">
       <thead>
         <tr>
-          <th>Car make</th>
-          <th>Car model</th>
-          <th>price</th>
+          <th>Country</th>
+          <th>Currency</th>
+          <th>Converstion</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>test</td>
-          <td>test 2</td>
-          <td>test 3</td>
+          <td>UK</td>
+          <td>Pound</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>bk</td>
+          <td>und</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>ck</td>
+          <td>ound</td>
+          <td>69</td>
         </tr>
       </tbody>
     </table>
+
+    <br />
+    <br />
+
+    <button onclick="tester1()">test</button>
 
     <button onclick="oneWord()">one word</button>
 
