@@ -33,8 +33,6 @@ function timesTable() {
   document.getElementById("timestable-results").innerHTML = layout;
 }
 
-timesTable();
-
 // function fiveTimesTable() {
 //   var display = ""; // The table output HTML
 
