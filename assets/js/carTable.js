@@ -1,3 +1,206 @@
+// hidden word section challenge
+
+// function findCommonElements2(arr1, arr2) {
+//   // Create an empty object
+//   let obj = {};
+
+//   // Loop through the first array
+//   for (let i = 0; i < arr1.length; i++) {
+//     // Check if element from first array
+//     // already exist in object or not
+//     if (!obj[arr1[i]]) {
+//       // If it doesn't exist assign the
+//       // properties equals to the
+//       // elements in the array
+//       const element = arr1[i];
+//       obj[element] = true;
+//     }
+//   }
+
+//   // Loop through the second array
+//   for (let j = 0; j < arr2.length; j++) {
+//     // Check elements from second array exist
+//     // in the created object or not
+//     if (obj[arr2[j]]) {
+//       return true;
+//     }
+//   }
+//   return false;
+// }
+
+// console.log(findCommonElements2("qwekasdeghjvpofilkjnzxz", "kevin"));
+
+// function findWord(string1, string2) {
+//   if (string1.includes(string2)) {
+//     console.log("true");
+//   } else {
+//     console.log("try again");
+//   }
+// }
+
+// findWord("qwekasdeghjvpofilkjnzxzkevin", "kevin");
+
+// function findWord2(word1, word2) {
+//   if (word1 == "" || word2 == "") {
+//     alert("enter a correct word");
+//   } else {
+//     for (i = 0; i < word1.length; i++) {
+//       console.log(word1[i]);
+//       if (word1[i] == word2) {
+//         console.log("true"); // had to look up
+//       } else {
+//         return "did not work";
+//       }
+//     }
+//   }
+// }
+
+// console.log(findWord2("UcUNFYGaFYFYGtNUH", "cat"));
+
+//--------------------------------------------------------------
+
+//hiding word
+
+function detectWords(word) {
+  decoded = ""; // got thid correct but did not implement it correctly
+  if (word == "") {
+    alert("enter a correct word");
+  } else {
+    for (i = 0; i < word.length; i++) {
+      if (word[i] == word[i].toLowerCase()) {
+        decoded += word[i]; // had to look up
+      }
+    }
+    return decoded; // had to look up
+  }
+}
+
+console.log(detectWords("UcUNFYGaFYFYGtNUH")); //➞ "cat"
+
+// detectWords("bEEFGBuFBRrHgUHlNFYaYr") ➞ "burglar"
+
+// detectWords("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment") ➞ "embezzlement"
+
+//--------------------------------------------------------------
+
+// 4 input feilds football challenege results javascript and jquery
+
+function inputFootball() {
+  name = document.getElementById("name").value;
+  win = document.getElementById("wins").value;
+  draw = document.getElementById("draws").value;
+  loss = document.getElementById("loss").value;
+  console.log(name, win, draw, loss);
+
+  if (name == "" || win == "" || draw == "" || loss == "") {
+    alert("Not All feilds have been filled");
+  } else {
+    finalFigure = win * 3 + draw * 1 + loss * 0;
+    document.getElementById("footballInputResult").innerHTML =
+      "total Score of all wins, losses and draws for " +
+      name +
+      " is " +
+      finalFigure;
+  }
+
+  // finalFigure = win * 3 + draw * 1 + loss * 0;
+  // document.getElementById("footballInputResult").innerHTML =
+  //   "total Score of all wins, losses and draws for " +
+  //   name +
+  //   " is " +
+  //   finalFigure;
+}
+
+$(document).ready(function () {
+  $("#inputFootballJ").click(function () {
+    name = $("#name").val();
+    win = $("#wins").val();
+    draw = $("#draws").val();
+    loss = $("#loss").val();
+
+    console.log(name, win, draw, loss);
+
+    if (name == "" || win == "" || draw == "" || loss == "") {
+      alert("Not All feilds have been filled");
+    } else {
+      finalFigure = win * 3 + draw * 1 + loss * 0;
+      $("#footballInputResult").html(
+        "total Score of all wins, losses and draws for " +
+          name +
+          " is " +
+          +finalFigure
+      );
+    }
+
+    // console.log(name, win, draw, loss);
+    // finalFigure = win * 3 + draw * 1 + loss * 0;
+    // $("#footballInputResult").html(
+    //   "total Score of all wins, losses and draws for " +
+    //     name +
+    //     " is " +
+    //     +finalFigure
+    // );
+  });
+});
+
+//--------------------------------------------------------------
+
+// Football Points function - with validation
+
+function footballPoints(wins, draws, loss) {
+  //______________changes made____________________
+  // if (
+  //   typeof wins == "number" &&
+  //   typeof draws == "number" &&
+  //   typeof loss == "number"
+  // ) {
+  //   totalScore = wins * 3 + draws * 1 + loss * 0;
+  //   console.log("total Score = " + totalScore);
+  // } else {
+  //   alert("enter a valid number");
+  // }
+
+  if (isNaN(wins) || isNaN(draws) || isNaN(loss)) {
+    alert("enter a valid number");
+  } else {
+    totalScore = wins * 3 + draws * 1 + loss * 0;
+    console.log("total Score = " + totalScore);
+  }
+  //______________Before changes made____________________
+
+  // scoreBreakdown = wins + draws + loss;
+
+  // if (isNaN(scoreBreakdown)) {
+  //   alert("enter a valid number");
+  // } else {
+  //   totalScore = wins * 3 + draws * 1 + loss * 0;
+  //   console.log("total Score = " + totalScore);
+  // }
+
+  // if (typeof scoreBreakdown == "number") {
+  //   totalScore = wins * 3 + draws * 1 + loss * 0;
+  //   console.log("total Score = " + totalScore);
+  // } else {
+  //   alert("enter a valid number");
+  // }
+}
+
+footballPoints(3, 4, 2); //➞ 13
+
+//footballPoints(5, 0, 2) ➞ 15
+
+//footballPoints(0, 0, 1) ➞ 0
+
+//--------------------------------------------------------------
+
+//   var character = '5';
+// if (character == character.toUpperCase()) {
+//  alert ('upper case true');
+// }
+// if (character == character.toLowerCase()){
+//  alert ('lower case true');
+// }
+
 // jquery append example
 
 $(document).ready(function () {
@@ -18,6 +221,8 @@ $(document).ready(function () {
   });
 });
 
+//--------------------------------------------------------------
+
 // input feild less than
 
 function lessThan(input1, input2) {
@@ -36,53 +241,33 @@ console.log(lessThan(29, 70));
 
 //--------------------------------------------------------------
 
-//nothing i try will work
+// hiding in the crowd
 
-$(document).ready(function () {
-  $("body").css("background-image", 'url("../assets/img/food3.jpg")');
-});
+function detectWord(text) {
+  finalWord = "";
+  for (i = 0; i < text.length; i++) {
+    if (text[i] == text[i].toLowerCase()) {
+      finalWord += text[i];
+    }
+  }
 
-// $("body").css("background-image", 'url("../img/food3.jpg")');
+  return finalWord;
+}
+
+console.log(detectWord("UcUNFYGaFYFYGtNUH"));
+
+//--------------------------------------------------------------
+
+//correctly works jquery background image
 
 // $(document).ready(function () {
-//   $("body").css(
-//     "background-image",
-//     'url("https://www.w3resource.com/includes/jquery-images/jquery.gif")'
-//   );
+//   $("body").css("background-image", 'url("../assets/img/food3.jpg")');
 // });
 
 // $("body").css(
 //   "background-image",
 //   'url("https://www.w3resource.com/includes/jquery-images/jquery.gif")'
 // );
-
-//--------------------------------------------------------------
-
-// Football Points function - with validation
-
-function footballPoints(wins, draws, loss) {
-  scoreBreakdown = wins + draws + loss;
-
-  // if (isNaN(scoreBreakdown)) {
-  //   alert("enter a valid number");
-  // } else {
-  //   totalScore = wins * 3 + draws * 1 + loss * 0;
-  //   console.log("total Score = " + totalScore);
-  // }
-
-  if (typeof scoreBreakdown == "number") {
-    totalScore = wins * 3 + draws * 1 + loss * 0;
-    console.log("total Score = " + totalScore);
-  } else {
-    alert("enter a valid number");
-  }
-}
-
-footballPoints(4, 2); //➞ 13
-
-//footballPoints(5, 0, 2) ➞ 15
-
-//footballPoints(0, 0, 1) ➞ 0
 
 //--------------------------------------------------------------
 
