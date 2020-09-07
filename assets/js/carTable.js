@@ -1,3 +1,37 @@
+// is the statemnt true
+
+// function isTrue(a){
+
+// eval(a =< a)
+
+// }
+
+// isTrue("2 = 2") //➞ true
+
+// isTrue("8 < 7") ➞ false
+
+// isTrue("5 = 13") ➞ false
+
+// isTrue("15 > 4") ➞ true
+
+// totaal number added up
+
+function addUp(start) {
+  finalTotal = 0;
+
+  for (i = 1; i <= start; i++) {
+    finalTotal += i;
+  }
+
+  return finalTotal;
+}
+
+console.log(addUp(4)); //➞ 10
+
+// addUp(13) ➞ 91
+
+// addUp(600) ➞ 180300
+
 // hidden word section challenge
 
 // function findCommonElements2(arr1, arr2) {
@@ -80,68 +114,6 @@ console.log(detectWords("UcUNFYGaFYFYGtNUH")); //➞ "cat"
 // detectWords("bEEFGBuFBRrHgUHlNFYaYr") ➞ "burglar"
 
 // detectWords("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment") ➞ "embezzlement"
-
-//--------------------------------------------------------------
-
-// 4 input feilds football challenege results javascript and jquery
-
-function inputFootball() {
-  name = document.getElementById("name").value;
-  win = document.getElementById("wins").value;
-  draw = document.getElementById("draws").value;
-  loss = document.getElementById("loss").value;
-  console.log(name, win, draw, loss);
-
-  if (name == "" || win == "" || draw == "" || loss == "") {
-    alert("Not All feilds have been filled");
-  } else {
-    finalFigure = win * 3 + draw * 1 + loss * 0;
-    document.getElementById("footballInputResult").innerHTML =
-      "total Score of all wins, losses and draws for " +
-      name +
-      " is " +
-      finalFigure;
-  }
-
-  // finalFigure = win * 3 + draw * 1 + loss * 0;
-  // document.getElementById("footballInputResult").innerHTML =
-  //   "total Score of all wins, losses and draws for " +
-  //   name +
-  //   " is " +
-  //   finalFigure;
-}
-
-$(document).ready(function () {
-  $("#inputFootballJ").click(function () {
-    name = $("#name").val();
-    win = $("#wins").val();
-    draw = $("#draws").val();
-    loss = $("#loss").val();
-
-    console.log(name, win, draw, loss);
-
-    if (name == "" || win == "" || draw == "" || loss == "") {
-      alert("Not All feilds have been filled");
-    } else {
-      finalFigure = win * 3 + draw * 1 + loss * 0;
-      $("#footballInputResult").html(
-        "total Score of all wins, losses and draws for " +
-          name +
-          " is " +
-          +finalFigure
-      );
-    }
-
-    // console.log(name, win, draw, loss);
-    // finalFigure = win * 3 + draw * 1 + loss * 0;
-    // $("#footballInputResult").html(
-    //   "total Score of all wins, losses and draws for " +
-    //     name +
-    //     " is " +
-    //     +finalFigure
-    // );
-  });
-});
 
 //--------------------------------------------------------------
 

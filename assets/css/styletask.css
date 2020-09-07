@@ -7,3 +7,10 @@
 /* body {
   background-image: url("../img/food3.jpg");
 } */
+
+.footballTeamName {
+  text-transform: uppercase;
+  color: red;
+  text-decoration: underline;
+  font-weight: 700;
+}
