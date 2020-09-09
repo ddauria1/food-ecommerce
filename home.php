@@ -2,8 +2,6 @@
     <h1 class="col-md-12"><?php print $data["name"] ?></h1>
 </div>
 
-<button onclick="tester1()">new deals</button>
-
 <!-- 4 box layout -->
 
 <div class="row cursor center-text-LR">
@@ -105,8 +103,7 @@
             <div class="food-plan-option">
                 <h4>Time saver</h4>
                 <p>
-                    We deliver everything you need to create delicious dinners from
-                    scratch so you spend less time shopping!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, voluptatibus!
                 </p>
             </div>
             <br />
@@ -114,8 +111,7 @@
             <div class="food-plan-option">
                 <h4>Time saver</h4>
                 <p>
-                    We deliver everything you need to create delicious dinners from
-                    scratch so you spend less time shopping!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, voluptatibus!
                 </p>
             </div>
             <br />
@@ -123,8 +119,7 @@
             <div class="food-plan-option">
                 <h4>Time saver</h4>
                 <p>
-                    We deliver everything you need to create delicious dinners from
-                    scratch so you spend less time shopping!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, voluptatibus!
                 </p>
             </div>
             <br />
@@ -132,132 +127,3 @@
     </div>
 </div>
 
-<!-- check user age -->
-
-<div class="checkAge center-text-huge">
-    <div class="footer-header">
-        <h3 class="pad-sm-bottom">Age Check</h3>
-        <p class="pad-sm-bottom">
-            Please note you must be over the age of 18
-        </p>
-    </div>
-
-    <div class="form-style">
-        <input
-            type="number"
-            name="user age"
-            id="age"
-            placeholder="Age"
-            class="form-style-input age-form"
-            required
-        />
-        <button class="form-style-button age-submit">
-            Send
-        </button>
-    </div>
-</div>
-
-<p class="ageResult"></p>
-
-<!--submit form section -->
-
-<div class="form form-style-border">
-    <h3 class="subTitle">Please enter your details below</h3>
-    <p class="text">All feilds must be completed</p>
-
-    <div class="form--input">
-        <input
-            type="text"
-            name="first-name"
-            placeholder="First Name"
-            id="input--firstName"
-        />
-
-        <input
-            type="text"
-            name="last-name"
-            placeholder="Last Name"
-            id="input--lastName"
-        />
-
-        <input
-            type="email"
-            name="email address"
-            id="input--email"
-            placeholder="Email Address"
-        />
-
-        <button class="submitForm">
-            Submit
-        </button>
-
-        <p class="form--result"></p>
-        <button class="box-hide">X</button>
-    </div>
-</div>
-
-<!-- currenct table  -->
-<table id="table_id">
-    <thead>
-    <tr>
-        <th>Country</th>
-        <th>Currency</th>
-        <th>Converstion</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="tr-test">
-        <td>UK</td>
-        <td>Pound</td>
-        <td>£</td>
-    </tr>
-
-    <tr class="tr-test">
-        <td>Italy</td>
-        <td>Euro</td>
-        <td>€</td>
-    </tr>
-
-    <tr class="tr-test">
-        <td>Australia</td>
-        <td>Dollar</td>
-        <td>$</td>
-    </tr>
-
-    <tr class="tr-test">
-        <td>UK</td>
-        <td>Pound</td>
-        <td>£</td>
-    </tr>
-
-    <tr class="tr-test">
-        <td>Italy</td>
-        <td>Euro</td>
-        <td>€</td>
-    </tr>
-
-    <tr class="tr-test">
-        <td>Australia</td>
-        <td>Dollar</td>
-        <td>$</td>
-    </tr>
-
-    <tr class="tr-test">
-        <td>UK</td>
-        <td>Pound</td>
-        <td>£</td>
-    </tr>
-
-    <tr class="tr-test">
-        <td>Italy</td>
-        <td>Euro</td>
-        <td>€</td>
-    </tr>
-
-    <tr class="tr-test">
-        <td>Australia</td>
-        <td>Dollar</td>
-        <td>$</td>
-    </tr>
-    </tbody>
-</table>

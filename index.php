@@ -32,8 +32,8 @@
     <script src="assets/js/config.js"></script>
     <script src="assets/js/app.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/styleterm.css" />
-    <link rel="stylesheet" href="assets/css/styleworks.css" />
+    <script src="assets/js/fileJs.js"></script>
+
     <script
       src="https://kit.fontawesome.com/30511564b5.js"
       crossorigin="anonymous"
@@ -77,8 +77,8 @@
             <li <?php if(!isset($_GET["p"])){ print "class='active'"; } ?>><a href="index.php">Home</a></li>
             <li <?php if(isset($_GET["p"]) && $_GET["p"]=="about"){ print " class='active' ";} ?> ><a href="index.php?p=about" >About</a></li>
             <li <?php if(isset($_GET["p"]) && $_GET["p"]=="contact"){ print " class='active' ";} ?>><a href="index.php?p=contact">Contact</a></li>
-            <li <?php if(isset($_GET["p"]) && $_GET["p"]=="termsandconditions"){ print " class='active' ";} ?>><a href="index.php?p=termsandconditions">terms and conditions</a></li>
-            <li <?php if(isset($_GET["p"]) && $_GET["p"]=="howitworks"){ print " class='active' ";} ?>><a href="index.php?p=howitworks">how it works</a></li>
+            <li <?php if(isset($_GET["p"]) && $_GET["p"]=="termsandconditions"){ print " class='active' ";} ?>><a href="index.php?p=termsandconditions">Terms And Conditions</a></li>
+            <li <?php if(isset($_GET["p"]) && $_GET["p"]=="howitworks"){ print " class='active' ";} ?>><a href="index.php?p=howitworks">How it Works</a></li>
           </ul>
         </div>
         <!--/.nav-collapse -->
@@ -125,7 +125,7 @@
             id="email"
             placeholder="email address"
           />
-          <button class="border-button">Send</button>
+          <button class="border-button" >Send</button>
         </div>
       </div>
 

@@ -15,9 +15,7 @@
   <div class="right">
     <h3>Pick a plan</h3>
     <p>
-      Whether cooking for yourself or your household, we have a flexible
-      plan to match your lifestyle. Need to cancel, change meals, or skip a
-      week? Not a problem.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
     </p>
     <button class="topbutton">Get started</button>
   </div>
@@ -27,9 +25,7 @@
   <div class="left">
     <h3>Pick a plan</h3>
     <p>
-      Whether cooking for yourself or your household, we have a flexible
-      plan to match your lifestyle. Need to cancel, change meals, or skip a
-      week? Not a problem.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
     </p>
     <button class="topbutton">Get started</button>
   </div>
@@ -57,9 +53,7 @@
   <div class="right">
     <h3>Pick a plan</h3>
     <p>
-      Whether cooking for yourself or your household, we have a flexible
-      plan to match your lifestyle. Need to cancel, change meals, or skip a
-      week? Not a problem.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
     </p>
     <button class="topbutton">Get started</button>
   </div>
@@ -74,8 +68,7 @@
       <i class="far fa-smile-beam fa-3x"></i>
       <h4>Deliciousness</h4>
       <p>
-        Our chef-created recipes are tested 200 times to ensure your meals
-        are as delicious to eat as they are easy to make.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
       </p>
     </div>
 
@@ -83,8 +76,7 @@
       <i class="fas fa-hand-sparkles fa-3x"></i>
       <h4>Simplicity</h4>
       <p>
-        From step-by-step recipes to no-hassle account changes, we make your
-        life easier every way we can.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
       </p>
     </div>
 
@@ -92,8 +84,7 @@
       <i class="fas fa-puzzle-piece fa-3x"></i>
       <h4>Flexibility</h4>
       <p>
-        We accommodate every appetite, household size, and schedule. Need to
-        skip a week or cancel? No problem.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
       </p>
     </div>
 
@@ -101,8 +92,7 @@
       <i class="fas fa-glass-cheers fa-3x"></i>
       <h4>Stress-free</h4>
       <p>
-        Take back your evenings with fewer trips to the store, pre-planned
-        meals, and little cleanup.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
       </p>
     </div>
 
@@ -110,8 +100,7 @@
       <i class="fas fa-drumstick-bite fa-3x"></i>
       <h4>Dietarily diverse</h4>
       <p>
-        Picky appetites welcome! Tell us what you like and don’t like, and
-        we’ll recommend something delicious.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
       </p>
     </div>
 
@@ -119,8 +108,7 @@
       <i class="fas fa-globe-americas fa-3x"></i>
       <h4>No waste</h4>
       <p>
-        It’s easy being green with our pre-measured ingredients and
-        recyclable materials.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
       </p>
     </div>
   </div>
@@ -141,9 +129,7 @@
 
         <div class="text-box-1 hideBoxes margin-top">
           <p>
-              Nope. You can skip your weekly delivery or cancel at any time.
-              Just be sure to do so by our cutoff: 11:59 on Tuesday, the week
-              prior to your delivery.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
           </p>
         </div>
       </div>
@@ -157,10 +143,7 @@
       </div>
       <div class="text-box-2 hideBoxes margin-top">
         <p>
-          Delivery times are from 8 am to 8 pm on the day you choose. If
-          you’re not at home, don’t worry! You can always add special
-          delivery instructions to your account. You can also change your
-          delivery day online if you need to.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
         </p>
       </div>
     </div>
@@ -172,9 +155,7 @@
       </div>
       <div class="text-box-3 hideBoxes margin-top">
         <p>
-          Every recipe comes with detailed nutritional information,
-          including food allergies. You can find this info on all recipe
-          cards and online when you choose your meals.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
         </p>
       </div>
     </div>
@@ -186,8 +167,7 @@
       </div>
       <div class="text-box-4 hideBoxes margin-top">
         <p>
-          Yes. Classic and Family Plan customers can choose meals every
-          week.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
         </p>
       </div>
     </div>
@@ -199,8 +179,7 @@
       </div>
       <div class="text-box-5 hideBoxes margin-top">
         <p>
-          We carefully handpack all ingredients with special ice packs and
-          insulation, so your food keeps cool until you get home.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
         </p>
       </div>
     </div>
@@ -212,9 +191,7 @@
       </div>
       <div class="text-box-6 hideBoxes margin-top">
         <p>
-          No worries. You can easily skip a week (or several!) when you need
-          to. Just be sure to do so by our cutoff: 11:59 on Tuesday, the
-          week prior to your delivery.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
         </p>
       </div>
     </div>

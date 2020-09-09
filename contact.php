@@ -3,8 +3,4 @@
   </div>
 
 
-  <img src="assets/img/home/food-1.jpg" alt="" srcset="">
-  <img src="assets/img/home/food-2.jpg" alt="" srcset="">
-  <img src="assets/img/home/food-3.jpg" alt="" srcset="">
-  <img src="assets/img/home/food-4.jpg" alt="" srcset="">
 

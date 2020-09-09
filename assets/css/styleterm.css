@@ -1,36 +1,127 @@
-* {
+/* old code from stlye.css about hoem page
+
+
+
+/* delete when done */
+
+/* .col-md-2,
+.col-md-1 {
+  border: red solid 2px;
+} */
+
+/* .top-space li a {
+  font-weight: 900;
+  border: red solid 2px;
+  line-height: 3rem;
+} */
+
+/* .errorMessage {
+  color: yellow;
+  font-weight: bold;
+}
+
+.okMessage {
+  color: green;
+  font-weight: bold;
+} */
+
+/* form complete name surnamea dn email
+
+.form-style-border {
+  border: 2px solid green;
+}
+
+.form {
+  width: max-content;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+}
+
+.form--result {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: -1rem;
+}
+
+.formResult-style {
+  border: 2px dotted blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+  font-style: italic;
+  padding: 0.5rem;
+  color: orangered;
+} */
+
+/* table */
+/* 
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 599px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (max-width: 320px) {
+} */
+
+/* 4 boxes css */
+
+/* code for entire website */
+
+/* #html {
+  font-size: 62.5%;
+  color: black;
+} */
+
+/* .textColor {
+  color: black;
+}
+
+/* table */
+
+/* table {
+  width: 50rem;
+}
+
+.table--even {
+  background-color: blue;
+  color: white;
+  width: 20rem;
+}
+
+.table--odd {
+  background-color: grey;
+  color: black;
+}  */
+
+/* basic code all pages */
+
+/* added above * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* bottom of home code section */
+
+/* added to new code * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 
-.bannertop {
-  height: 427px;
-  background-image: url("../img/home/food-1.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 100vw;
-  margin-left: -15px;
-  margin-top: -29px;
-}
-
-.content {
-  background-color: white;
-  margin: 3rem auto;
-  max-width: 100rem;
-}
-
-.setin {
-  padding: 0rem 2rem;
-}
-
-.title {
-  text-align: center;
-  font-size: 38px;
-  padding: 3rem 2rem;
-}
-
-@media only screen and (max-width: 37.5em) {
+/* @media only screen and (max-width: 37.5em) {
   .title {
     font-size: 20px;
     background-color: red;
@@ -71,13 +162,9 @@
     font-size: 38px;
     background-color: green;
   }
-}
+} */
 
-.terms-font-size {
-  font-size: 12px;
-}
-
-@media only screen and (max-width: 37.5em) {
+/* @media only screen and (max-width: 37.5em) {
   .terms-font-size {
     font-size: 10px;
     background-color: red;
@@ -118,14 +205,9 @@
     font-size: 12px;
     background-color: green;
   }
-}
+} */
 
-.terms-font-subhead {
-  font-size: 16px;
-  font-weight: 600;
-}
-
-@media only screen and (max-width: 37.5em) {
+/* @media only screen and (max-width: 37.5em) {
   .terms-font-subhead {
     font-size: 10px;
     background-color: red;
@@ -166,15 +248,4 @@
     font-size: 16px;
     background-color: green;
   }
-}
-
-.line {
-  border-top: 0.5px solid black;
-  margin: 3rem 0rem;
-  opacity: 0.2;
-}
-
-ul li {
-  list-style: none;
-  padding-bottom: 2rem;
-}
+}  */

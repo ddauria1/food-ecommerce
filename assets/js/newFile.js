@@ -71,7 +71,7 @@ function addUp(number) {
   if (isNaN(number) || typeof number == "string") {
     alert("enter a number");
   } else {
-    for (i = 0; i <= number; i++) {
+    for (i = 1; i <= number; i++) {
       result += i;
     }
     console.log(result);
@@ -129,7 +129,7 @@ function tuckIn(str1, str2) {
   console.log(inOrder);
 }
 
-tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9]); //➞ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+tuckIn([1, 4], [2, 3, 5, 6, 7, 8, 9]); //➞ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // tuckIn([15,150], [45, 75, 35]) ➞ [15, 45, 75, 35, 150]
 
@@ -153,7 +153,7 @@ function charCount(find, content) {
   }
 }
 
-charCount("a", "edabit"); //➞ 1
+charCount("a", "edaaabit"); //➞ 1
 
 // charCount("c", "Chamber of secrets"); //➞ 1
 
