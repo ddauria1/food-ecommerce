@@ -37,3 +37,19 @@ function popupInput() {
     text: $("#input").val(),
   });
 }
+
+// onlcick image text
+
+$(document).ready(function () {
+  $(".food").click(function () {
+    showBox($(this).attr("number"));
+  });
+});
+
+function showBox(posi) {
+  if ($(".text-box-" + posi).is(":visible")) {
+    $(".text-box-" + posi).hide();
+  } else {
+    $(".text-box-" + posi).show();
+  }
+}

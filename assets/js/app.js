@@ -20,232 +20,216 @@
 //by the browser to the server. The value returned, contains information about the name, version and platform
 //of the browser.
 
-function userAgent() {
-  console.log("before the function");
+// function userAgent() {
+//   console.log("before the function");
 
-  setTimeout(function () {
-    alert(window.navigator.userAgent);
-    console.log("inside the function");
-  }, 2000);
+//   setTimeout(function () {
+//     alert(window.navigator.userAgent);
+//     console.log("inside the function");
+//   }, 2000);
+// }
+
+// //userAgent();
+
+// // this provides the json object information
+
+// function getUserInfo() {
+//   $.getJSON(wwwrooot + "/assets/js/info.json", function (data) {
+//     console.log(data);
+//     alert(data.geobytescapital);
+//   });
+// }
+
+// //getUserInfo();
+
+// // using the below you can produce specific infomraiton, here the title of the web page is changed to
+// // show the location of the user aswell
+
+// function changeTitle() {
+//   $.getJSON(wwwrooot + "/assets/js/info.json", function (data) {
+//     jQuery(".navbar-brand").html(
+//       jQuery(".navbar-brand").html() + " (" + data.geobytescapital + ") "
+//     );
+//   });
+// }
+
+// //changeTitle();
+
+// // after a 3 second wait the user country locaton is shown in the footer of the web page
+
+// function userLocation() {
+//   setTimeout(function () {
+//     $.getJSON(wwwrooot + "/assets/js/info.json", function (data) {
+//       jQuery(".country-location").html(data.geobytescountry);
+//       currentDate();
+//     });
+//   }, 3000);
+// }
+
+// userLocation();
+
+// // current time
+
+// function currentDate() {
+//   $(".country-location").after(
+//     '<span id="newDT" onclick="newDateAndTime()">' + new Date() + "</span>"
+//   );
+// }
+
+// function newDateAndTime() {
+//   $("#newDT").text(new Date());
+// }
+
+// function ageCheck() {
+//   age = $("#age").val();
+
+//   console.log(age);
+
+//   if (age == "") {
+//     $(".ageResult").html(
+//       "<span class='errorMessage'> please add correct age value </span>"
+//     );
+
+//     red;
+//   } else {
+//     if (age > 18) {
+//       $(".ageResult").html(
+//         "<span class='okMessage'> You are old enough </span>"
+//       );
+//     } else {
+//       $(".ageResult").html(
+//         "<span class='errorMessage'> You are to Young </span>"
+//       );
+//       red;
+//     }
+//   }
+// }
+
+// function sendForm() {
+//   $(".form--result").html(
+//     `<span class='formResult-style'>${$("#input--firstName").val()} ${$(
+//       "#input--lastName"
+//     ).val()} ${$("#input--email").val()}</span>`
+//   );
+// }
+
+// function boxHides() {
+//   $(".form--result").hide();
+// }
+
+// // html table
+
+// function rowChange() {
+//   setTimeout(function () {
+//     even(), odd();
+//   }, 3000);
+// }
+
+// rowChange();
+
+// function even() {
+//   $("table tr:even").css("background", "blue");
+// }
+
+// function odd() {
+//   $("table tr:odd").css({ background: "green", color: "white" });
 }
 
-//userAgent();
+// // change border of form
 
-// this provides the json object information
+// function changeBorder() {
+//   setTimeout(function () {
+//     $(".form-style-border").css({ border: "solid blue 10px" });
+//   }, 3000);
+// }
 
-function getUserInfo() {
-  $.getJSON(wwwrooot + "/assets/js/info.json", function (data) {
-    console.log(data);
-    alert(data.geobytescapital);
-  });
-}
+// changeBorder();
 
-//getUserInfo();
+// function changeName() {
+//   setTimeout(function () {
+//     $(".subTitle").html("please enter your details");
+//   }, 3000);
+// }
 
-// using the below you can produce specific infomraiton, here the title of the web page is changed to
-// show the location of the user aswell
+// changeName();
 
-function changeTitle() {
-  $.getJSON(wwwrooot + "/assets/js/info.json", function (data) {
-    jQuery(".navbar-brand").html(
-      jQuery(".navbar-brand").html() + " (" + data.geobytescapital + ") "
-    );
-  });
-}
+// // age form - only works with timeout included
 
-//changeTitle();
+// function ageInput() {
+//   $(".form-style-input").css({
+//     width: "30rem",
+//     height: "4rem",
+//   });
+// }
 
-// after a 3 second wait the user country locaton is shown in the footer of the web page
+// function ageButton() {
+//   $(".form-style-button").css({
+//     width: "7rem",
+//     height: "4rem",
+//   });
+// }
 
-function userLocation() {
-  setTimeout(function () {
-    $.getJSON(wwwrooot + "/assets/js/info.json", function (data) {
-      jQuery(".country-location").html(data.geobytescountry);
-      currentDate();
-    });
-  }, 3000);
-}
+// $(document).ready(function () {
+//   ageInput();
+//   ageButton();
 
-userLocation();
+//   // jquery event change
 
-// onlcick image text
+//   $(".submitForm").click(function () {
+//     $(".form--result").html(
+//       `<span class='formResult-style'>${$("#input--firstName").val()} ${$(
+//         "#input--lastName"
+//       ).val()} ${$("#input--email").val()}</span>`
+//     );
+//   });
 
-$(document).ready(function () {
-  $(".food").click(function () {
-    showBox($(this).attr("number"));
-  });
-});
+//   $(".box-hide").click(function () {
+//     $(".form--result").hide();
+//   });
 
-function showBox(posi) {
-  if ($(".text-box-" + posi).is(":visible")) {
-    $(".text-box-" + posi).hide();
-  } else {
-    $(".text-box-" + posi).show();
-  }
-}
+//   $(".age-submit").click(function () {
+//     age = $("#age").val();
 
-// current time
+//     console.log(age);
 
-function currentDate() {
-  $(".country-location").after(
-    '<span id="newDT" onclick="newDateAndTime()">' + new Date() + "</span>"
-  );
-}
+//     if (age == "") {
+//       Swal.fire({
+//         icon: "error",
+//         title: "Oops...",
+//         text: "Please complete this feild to proceed",
+//       });
+//     } else {
+//       if (age > 18) {
+//         Swal.fire({
+//           icon: "success",
+//           title: "Hurray",
+//           text: "You have confirmed your over 18, please proceed",
+//         });
+//       } else {
+//         Swal.fire({
+//           icon: "warning",
+//           title: "No entry",
+//           text: "Please note you must be over the age of 18",
+//         });
+//       }
+//     }
 
-function newDateAndTime() {
-  $("#newDT").text(new Date());
-}
-
-function ageCheck() {
-  age = $("#age").val();
-
-  console.log(age);
-
-  if (age == "") {
-    $(".ageResult").html(
-      "<span class='errorMessage'> please add correct age value </span>"
-    );
-
-    red;
-  } else {
-    if (age > 18) {
-      $(".ageResult").html(
-        "<span class='okMessage'> You are old enough </span>"
-      );
-    } else {
-      $(".ageResult").html(
-        "<span class='errorMessage'> You are to Young </span>"
-      );
-      red;
-    }
-  }
-}
-
-function sendForm() {
-  $(".form--result").html(
-    `<span class='formResult-style'>${$("#input--firstName").val()} ${$(
-      "#input--lastName"
-    ).val()} ${$("#input--email").val()}</span>`
-  );
-}
-
-function boxHides() {
-  $(".form--result").hide();
-}
-
-// html table
-
-function rowChange() {
-  setTimeout(function () {
-    even(), odd();
-  }, 3000);
-}
-
-rowChange();
-
-function even() {
-  $("table tr:even").css("background", "blue");
-}
-
-function odd() {
-  $("table tr:odd").css({ background: "green", color: "white" });
-}
-
-// change border of form
-
-function changeBorder() {
-  setTimeout(function () {
-    $(".form-style-border").css({ border: "solid blue 10px" });
-  }, 3000);
-}
-
-changeBorder();
-
-function changeName() {
-  setTimeout(function () {
-    $(".subTitle").html("please enter your details");
-  }, 3000);
-}
-
-changeName();
-
-// age form - only works with timeout included
-
-function ageInput() {
-  $(".form-style-input").css({
-    width: "30rem",
-    height: "4rem",
-  });
-}
-
-function ageButton() {
-  $(".form-style-button").css({
-    width: "7rem",
-    height: "4rem",
-  });
-}
-
-$(document).ready(function () {
-  ageInput();
-  ageButton();
-
-  // jquery event change
-
-  $(".submitForm").click(function () {
-    $(".form--result").html(
-      `<span class='formResult-style'>${$("#input--firstName").val()} ${$(
-        "#input--lastName"
-      ).val()} ${$("#input--email").val()}</span>`
-    );
-  });
-
-  $(".box-hide").click(function () {
-    $(".form--result").hide();
-  });
-
-  $(".age-submit").click(function () {
-    age = $("#age").val();
-
-    console.log(age);
-
-    if (age == "") {
-      Swal.fire({
-        icon: "error",
-        title: "Oops...",
-        text: "Please complete this feild to proceed",
-      });
-    } else {
-      if (age > 18) {
-        Swal.fire({
-          icon: "success",
-          title: "Hurray",
-          text: "You have confirmed your over 18, please proceed",
-        });
-      } else {
-        Swal.fire({
-          icon: "warning",
-          title: "No entry",
-          text: "Please note you must be over the age of 18",
-        });
-      }
-    }
-
-    // if (age == "") {
-    //   $(".ageResult").html(
-    //     "<span class='errorMessage'> please add correct age value </span>"
-    //   );
-    // } else {
-    //   if (age > 18) {
-    //     $(".ageResult").html("<span class='okMessage'> You are old enough </span>");
-    //   } else {
-    //     $(".ageResult").html(
-    //       "<span class='errorMessage'> You are to Young </span>"
-    //     );
-    //     red;
-    //   }
-    // }
-  });
-});
+//     // if (age == "") {
+//     //   $(".ageResult").html(
+//     //     "<span class='errorMessage'> please add correct age value </span>"
+//     //   );
+//     // } else {
+//     //   if (age > 18) {
+//     //     $(".ageResult").html("<span class='okMessage'> You are old enough </span>");
+//     //   } else {
+//     //     $(".ageResult").html(
+//     //       "<span class='errorMessage'> You are to Young </span>"
+//     //     );
+//     //     red;
+//     //   }
+//     // }
+//   });
+// });
 
 // does this one need to be changed? - also what is newDT
 
@@ -261,14 +245,14 @@ $(document).ready(function () {
 
 // sweetalert
 
-function tester1() {
-  Swal.fire("Any fool can use a computer");
-}
+// function tester1() {
+//   Swal.fire("Any fool can use a computer");
+// }
 
-//table code
-$(document).ready(function () {
-  $("#table_id").DataTable();
-});
+// //table code
+// $(document).ready(function () {
+//   $("#table_id").DataTable();
+// });
 
 // $(document).ready(function () {
 //   var table = $("#example").DataTable();

@@ -29,11 +29,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="assets/js/config.js"></script>
-    <script src="assets/js/app.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="assets/js/fileJs.js"></script>
-
     <script
       src="https://kit.fontawesome.com/30511564b5.js"
       crossorigin="anonymous"
@@ -49,6 +44,9 @@
       type="text/javascript"
       src="https://cdn.datatables.net/v/dt/dt-1.10.21/af-2.3.5/b-1.6.3/r-2.2.5/sc-2.0.2/datatables.min.js"
     ></script>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/fileJs.js"></script>
   </head>
   <body>
 
@@ -84,7 +82,7 @@
         <!--/.nav-collapse -->
       </div>
     </nav>
-    <main class="container" style="margin-top: 100px;">
+    <main class="container-fluid" style="margin-top: 100px;">
         <?php
             if(isset($_GET['p']) && $_GET['p']=="about"){
                 $data = [ "name" => "About | Commernce" ];
