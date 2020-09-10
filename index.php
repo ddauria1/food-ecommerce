@@ -10,13 +10,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link
+    <!-- issue with code below first one is what was originally used , does not work with page how it works -->
+    <!-- <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous"
-    />
-    <link
+    /> -->
+    <!-- does work with how it works, but nav bar does not work -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- -------------------------------------------------------- -->
+     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
       integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
@@ -43,7 +48,10 @@
     <script
       type="text/javascript"
       src="https://cdn.datatables.net/v/dt/dt-1.10.21/af-2.3.5/b-1.6.3/r-2.2.5/sc-2.0.2/datatables.min.js"
-    ></script>
+    ></script> 
+
+
+
 
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="assets/js/fileJs.js"></script>

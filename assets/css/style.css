@@ -7,6 +7,24 @@
   gap: 3rem;
 } */
 
+/* .benefitsgrid {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  grid-template-rows: repeat(2, min-content);
+  width: 100rem;
+  margin: 0rem auto;
+  gap: 3rem;
+} */
+
+/* .faqgrid {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: repeat(3, min-content);
+  max-width: 100rem;
+  margin: 0rem auto;
+  gap: 3rem;
+} */
+
 /* basic code all page */
 
 * {
@@ -423,13 +441,9 @@ ul li {
 
 /* middle section */
 
-.benefitsgrid {
-  display: grid;
-  grid-template-columns: repeat(3, min-content);
-  grid-template-rows: repeat(2, min-content);
-  width: 100rem;
+.benefitsgrid-boot {
+  max-width: 100rem;
   margin: 0rem auto;
-  gap: 3rem;
 }
 
 .benefitbutton {
@@ -447,18 +461,14 @@ ul li {
 }
 
 .benefitcontent {
-  width: 30rem;
+  max-width: 30rem;
 }
 
 /* bottom section */
 
-.faqgrid {
-  display: grid;
-  grid-template-columns: repeat(2, min-content);
-  grid-template-rows: repeat(3, min-content);
-  max-width: 100rem;
+.faqgrid-boot {
+  max-width: 60rem;
   margin: 0rem auto;
-  gap: 3rem;
 }
 
 .far {
@@ -491,5 +501,3 @@ ul li {
   margin-bottom: 3rem;
   text-transform: uppercase;
 }
-
-/* -----------------below this is old code----------------- */
