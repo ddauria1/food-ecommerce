@@ -4,16 +4,16 @@
 
 <div class="row grid-spacing">
 
-  <div class="col-4 left">
+  <div class="col left">
       <img src="assets/img/food1.jpg" alt="" srcset="" class="imagesize" />
   </div>
 
-  <div class="col-4 middle">
+  <div class="col middle">
       <p>Step 1</p>
       <i class="far fa-arrow-alt-circle-down fa-3x"></i>  
   </div>
 
-  <div class="col-4 right">
+  <div class="col right">
       <h3>Pick a plan</h3>
       <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
@@ -26,7 +26,7 @@
 
 <div class="row grid-spacing">
 
-  <div class="col-4 left">
+  <div class="col left">
     <h3>Pick a plan</h3>
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
@@ -34,12 +34,12 @@
     <button class="topbutton">Get started</button>
   </div>
 
-  <div class="col-4 middle">
+  <div class="col middle">
     <p>Step 2</p>
     <i class="far fa-arrow-alt-circle-down fa-3x"></i>
   </div>
 
-  <div class="col-4 right">
+  <div class="col right">
     <img src="assets/img/food2.jpg" alt="" srcset="" class="imagesize" />
   </div>
 
@@ -49,16 +49,16 @@
 
 <div class="row grid-spacing">
 
-  <div class="col-4 left">
+  <div class="col left">
       <img src="assets/img/food1.jpg" alt="" srcset="" class="imagesize" />
   </div>
 
-  <div class="col-4 middle">
+  <div class="col middle">
     <p>Step 3</p>
     <i class="far fa-arrow-alt-circle-down fa-3x"></i>
   </div>
 
-  <div class="col-4 right">
+  <div class="col right">
       <h3>Pick a plan</h3>
       <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
@@ -144,7 +144,7 @@
     <!-- part 1--------------------------------- -->
     <div class="row">
 
-      <div class="col-6 questions">
+      <div class="col questions">
         <div class="faqflex">
           <i class="far fa-times-circle fa-3x food" number="1"></i>
           <h4>Are there any commitments?</h4>
@@ -158,7 +158,7 @@
 
     
 
-      <div class="col-6 questions">
+      <div class="col questions">
         <div class="faqflex">
           <i class="far fa-times-circle fa-3x food" number="2"></i>
           <h4>What if I'm not home?</h4>
@@ -177,7 +177,7 @@
 
     <div class="row">
 
-      <div class="col-6 questions">
+      <div class="col questions">
         <div class="faqflex">
           <i class="far fa-times-circle fa-3x food" number="3"></i>
           <h4>What if there are certain foods I don't eat?</h4>
@@ -190,7 +190,7 @@
         </div>
       </div>
 
-      <div class="col-6 questions">
+      <div class="col questions">
         <div class="faqflex">
           <i class="far fa-times-circle fa-3x food" number="4"></i>
           <h4>Can I select my meals?</h4>
@@ -210,7 +210,7 @@
 
     <div class="row">
 
-      <div class="col-6 questions">
+      <div class="col questions">
         <div class="faqflex">
           <i class="far fa-times-circle fa-3x food" number="5"></i>
           <h4>How will my food stay cool?</h4>
@@ -223,7 +223,7 @@
         </div>
       </div>
 
-      <div class="col-6 questions">
+      <div class="col questions">
         <div class="faqflex">
           <i class="far fa-times-circle fa-3x food" number="6"></i>
           <h4>And if I don't want a delivery ?</h4>
