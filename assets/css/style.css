@@ -101,6 +101,10 @@ main {
 
 /* bottom section footer images */
 
+.row2 {
+  display: flex;
+}
+
 .titles {
   font-weight: 700;
   font-size: 2rem;

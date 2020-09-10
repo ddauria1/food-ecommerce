@@ -11,15 +11,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- issue with code below first one is what was originally used , does not work with page how it works -->
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous"
-    /> -->
+    />
     <!-- does work with how it works, but nav bar does not work -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
 <!-- -------------------------------------------------------- -->
      <link
       rel="stylesheet"
@@ -140,7 +140,7 @@
       <div class="space-line"></div>
 
       <!-- middle section of footer -->
-      <div class="row pad-sm-bottom center-text-LR">
+      <div class="row pad-sm-bottom">
         <div class="col-md-2">
           <h1 class="titles"> Hello Fresh</h1>
           <div class="list">
@@ -208,7 +208,7 @@
       <div class="space-line"></div>
 
       <!-- bottom section of footer -->
-      <div class="row2 center-text-LR2 center-text-TP">
+      <div class="row2 center-text-TP">
         <div class="col-md-2">
           <h4> &copy; Hello Fresh 2020</h4>
         </div>
