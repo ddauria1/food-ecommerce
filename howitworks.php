@@ -4,16 +4,16 @@
 
 <div class="row grid-spacing">
 
-  <div class="col left">
+  <div class="col-md-4 left">
       <img src="assets/img/food1.jpg" alt="" srcset="" class="imagesize" />
   </div>
-
-  <div class="col middle">
+ 
+  <div class="col-md-4 middle">
       <p>Step 1</p>
       <i class="far fa-arrow-alt-circle-down fa-3x"></i>  
   </div>
 
-  <div class="col right">
+  <div class="col-md-4 right">
       <h3>Pick a plan</h3>
       <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
@@ -26,7 +26,7 @@
 
 <div class="row grid-spacing">
 
-  <div class="col left">
+  <div class="col-md-4 left">
     <h3>Pick a plan</h3>
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
@@ -34,12 +34,12 @@
     <button class="topbutton">Get started</button>
   </div>
 
-  <div class="col middle">
+  <div class="col-md-4 middle">
     <p>Step 2</p>
     <i class="far fa-arrow-alt-circle-down fa-3x"></i>
   </div>
 
-  <div class="col right">
+  <div class="col-md-4 right">
     <img src="assets/img/food2.jpg" alt="" srcset="" class="imagesize" />
   </div>
 
@@ -49,16 +49,16 @@
 
 <div class="row grid-spacing">
 
-  <div class="col left">
+  <div class="col-md-4 left">
       <img src="assets/img/food1.jpg" alt="" srcset="" class="imagesize" />
   </div>
 
-  <div class="col middle">
+  <div class="col-md-4 middle">
     <p>Step 3</p>
     <i class="far fa-arrow-alt-circle-down fa-3x"></i>
   </div>
 
-  <div class="col right">
+  <div class="col-md-4 right">
       <h3>Pick a plan</h3>
       <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis esse suscipit est veritatis enim sequi culpa facilis temporibus beatae?
