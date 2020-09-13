@@ -23,7 +23,11 @@
   max-width: 100rem;
   margin: 0rem auto;
   gap: 3rem;
-} */
+} 
+
+.questions {
+  width: 44rem;
+}*/
 
 /* basic code all page */
 
@@ -471,16 +475,12 @@ ul li {
 /* bottom section */
 
 .faqgrid-boot {
-  max-width: 60rem;
+  max-width: 100rem;
   margin: 0rem auto;
 }
 
 .far {
   padding-right: 1rem;
-}
-
-.questions {
-  width: 44rem;
 }
 
 .margin-top {
@@ -490,6 +490,11 @@ ul li {
 .faqflex {
   display: flex;
   align-items: center;
+  width: 30rem;
+}
+
+.text-size {
+  width: 22rem;
 }
 
 .FAQSbutton {

@@ -93,19 +93,19 @@
       </div>
     </nav>
     <main class="container-fluid" style="margin-top: 100px;">
-        <?php
+      <?php
             if(isset($_GET['p']) && $_GET['p']=="about"){
-                $data = [ "name" => "About | Commernce" ];
+                // $data = [ "name" => "About | Commernce" ];
                 include 'about.php';
             }else if(isset($_GET['p']) && $_GET['p']=="contact"){
-                $data = [ "name" => "Contact | Commernce" ];
+                // $data = [ "name" => "Contact | Commernce" ];
                 include 'contact.php';
             }else if(isset($_GET['p']) && $_GET['p']=="termsandconditions"){
                 include 'termsandconditions.php';
             }else if(isset($_GET['p']) && $_GET['p']=="howitworks"){
                 include 'howitworks.php';
             }else{
-                $data = [ "name" => "Home | Commernce" ];
+                // $data = [ "name" => "Home | Commernce" ];
                 include 'home.php';
             }
         ?>
