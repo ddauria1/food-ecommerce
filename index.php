@@ -52,8 +52,17 @@
       src="https://cdn.datatables.net/v/dt/dt-1.10.21/af-2.3.5/b-1.6.3/r-2.2.5/sc-2.0.2/datatables.min.js"
     ></script> 
 
+    <!-- -------------------lazy loading------------------------------------- -->
 
+    <!-- jsDeliver -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/dkern/jquery.lazy@1.7.10/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/dkern/jquery.lazy@1.7.10/jquery.lazy.plugins.min.js"></script>
+    
+    <!-- cdnjs
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.plugins.min.js"></script> -->
 
+    <!-- -------------------------------------------------------- -->
 
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="assets/js/fileJs.js"></script>
