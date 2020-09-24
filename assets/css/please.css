@@ -1,0 +1,11 @@
+.just {
+  background-image: url("spritesheet.png");
+  width: 100vw;
+  height: 427px;
+}
+
+.anything {
+  background-image: url("../img/home/food-1.jpg");
+  width: 700px;
+  height: 427px;
+}

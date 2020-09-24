@@ -303,6 +303,31 @@ main {
 
 /* Home page */
 
+/* also doesnt work */
+.bg-food_3 {
+  width: 640px;
+  height: 423px;
+  background: url("/food-ecommerce/assets/img/home/css_sprites.png") -10px -456px;
+}
+
+.bg-food_4 {
+  width: 640px;
+  height: 426px;
+  background: url("/food-ecommerce/assets/img/home/css_sprites.png") -10px -10px;
+}
+
+.bg-food_2 {
+  width: 640px;
+  height: 426px;
+  background: url("/food-ecommerce/assets/img/home/css_sprites.png") -670px -10px;
+}
+
+.bg-food_1 {
+  width: 640px;
+  height: 423px;
+  background: url("/food-ecommerce/assets/img/home/css_sprites.png") -670px -456px;
+}
+
 /* top section - 4 boxes images */
 
 .cursor img {

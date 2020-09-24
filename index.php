@@ -96,6 +96,7 @@
             <li <?php if(isset($_GET["p"]) && $_GET["p"]=="contact"){ print " class='active' ";} ?>><a href="index.php?p=contact">Contact</a></li>
             <li <?php if(isset($_GET["p"]) && $_GET["p"]=="termsandconditions"){ print " class='active' ";} ?>><a href="index.php?p=termsandconditions">Terms And Conditions</a></li>
             <li <?php if(isset($_GET["p"]) && $_GET["p"]=="howitworks"){ print " class='active' ";} ?>><a href="index.php?p=howitworks">How it Works</a></li>
+            <li <?php if(isset($_GET["p"]) && $_GET["p"]=="contenttable"){ print " class='active' ";} ?>><a href="index.php?p=contenttable">Content Table</a></li>
           </ul>
         </div>
         <!--/.nav-collapse -->
@@ -113,7 +114,9 @@
                 include 'termsandconditions.php';
             }else if(isset($_GET['p']) && $_GET['p']=="howitworks"){
                 include 'howitworks.php';
-            }else{
+            }else if(isset($_GET['p']) && $_GET['p']=="contenttable"){
+              include 'contenttable.php';
+          }else{
                 // $data = [ "name" => "Home | Commernce" ];
                 include 'home.php';
             }

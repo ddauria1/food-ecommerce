@@ -67,3 +67,7 @@ $(document).ready(function () {
     });
   }, 2000);
 });
+
+$(document).ready(function () {
+  $("#contentTable").DataTable();
+});
